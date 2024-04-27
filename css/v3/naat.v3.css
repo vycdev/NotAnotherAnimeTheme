@@ -20,7 +20,7 @@
   background-color: var(--theme-transparency);
 }
 
-.tutorialContainer-2sGCg9
+/* .tutorialContainer-2sGCg9
   .wrapper__9916c
   .childWrapper_a6ce15
   .homeIcon-FuNwkv {
@@ -33,19 +33,20 @@
   .wrapper__8436d
   .childWrapper_a6ce15 {
   background-color: transparent;
-}
+} 
+*/
 
 .homeIcon-tEMBK1 {
   visibility: hidden;
 }
 
-.tutorialContainer-2sGCg9
+/* .tutorialContainer-2sGCg9
   .listItem-GuPuDH
   .listItemWrapper-KhRmzM
   .wrapper__8436d
   svg {
   opacity: 0;
-}
+} */
 
 .titleBar__710b0 {
   background-color: transparent;
@@ -323,17 +324,15 @@
 
 .item_f9d377 {
   animation: var(--unread-server-animation) 3s linear infinite;
-  border: 25px solid var(--main-theme-color);
+  border: 26px solid var(--main-theme-color);
   border-radius: 100%;
   display: block;
   width: 0 !important;
   height: 0 !important;
   position: absolute;
-  top: 0px;
-  left: 2px;
-  /* margin-left: 0; */
-  /* margin-top: 0; */
-  /* position: absolute; */
+  top: -2px;
+  left: -1px;
+  margin: auto;
   /* top: -2px; */
   /* right: 3px !important; */
   /* width: 48px; */
@@ -341,17 +340,24 @@
   transform: none !important;
 }
 
-.wrapper__216eb
+.listItem__48528:has(.folder__17546) .item_f9d377,
+.listItem__48528:has(.selected_ae80f7) .item_f9d377,
+.listItem__48528:has(.wrapper__9916c:hover) .item_f9d377 {
+  border-radius: 16px;
+}
+
+
+/* .wrapper__216eb
   .scroller_de945b
   > div.listItem-GuPuDH:nth-child(1)
   .item_f9d377 {
   opacity: 0 !important;
-}
+} */
 
-.item_f9d377:not([style*="height: 8px"]) {
+/* .item_f9d377:not([style*="height: 8px"]) {
   border-color: transparent;
   background-color: initial;
-}
+} */
 
 .pill-1m5BUr {
   display: none;
@@ -363,19 +369,19 @@
   flex-flow: row wrap;
 }
 
-.tutorialContainer-2sGCg9 {
+/* .tutorialContainer-2sGCg9 {
   display: flex;
   justify-content: center;
   width: 100%;
-}
+} */
 
 .expandedFolderBackground-2sPsd- {
   left: 0px;
 }
 
-.tutorialContainer-2sGCg9 .listItem-GuPuDH {
+/* .tutorialContainer-2sGCg9 .listItem-GuPuDH {
   right: 5px;
-}
+} */
 
 /* #endregion */
 
@@ -788,14 +794,14 @@
   left: 1px;
 }
 
-.wrapper__216eb
+/* .wrapper__216eb
   .scroller_de945b
   div
   .listItem-GuPuDH
   .pill__357e7
   .item_f9d377 {
   opacity: 0 !important;
-}
+} */
 
 .tree__7a511:focus {
   outline: none;
@@ -829,7 +835,6 @@
 
 .folder__17546 {
   background-color: var(--folder-background-color);
-  border-radius: 50%;
 }
 
 /* Friend activity */
@@ -888,13 +893,13 @@ html {
   border: var(--reaction-emoji-border-color);
 }
 
-.folderIconWrapper-1_bOZe {
-  border-radius: 50%;
+/* .folderIconWrapper-1_bOZe {
+  border-radius: 50% !important;
 }
 
 .folder-1hbNCn {
-  border-radius: 50%;
-}
+  border-radius: 50% !important;
+} */
 
 .wrapper__6bf2d {
   background-color: transparent;
@@ -937,9 +942,9 @@ html {
   width: initial;
 }
 
-.pill__357e7 .item_f9d377 {
+/* .pill__357e7 .item_f9d377 {
   opacity: 0 !important;
-}
+} */
 
 .theme-dark .autocomplete__743a5 {
   background-color: rgba(0, 0, 0, 0.7);
@@ -954,39 +959,39 @@ html {
   background-color: var(--emoji-menu-background-color);
 }
 
-.tutorialContainer_b06ae6 .childWrapper_a6ce15 {
+/* .tutorialContainer_b06ae6 .childWrapper_a6ce15 {
   background: var(--home-icon-image) !important;
   background-position: var(--home-icon-image-position) !important;
   background-repeat: no-repeat !important;
   background-size: var(--home-icon-image-zoom) !important;
-}
+} */
 
-.tutorialContainer_b06ae6
+/* .tutorialContainer_b06ae6
   .wrapper__9916c
   .childWrapper_a6ce15
   .homeIcon-FuNwkv {
   visibility: hidden;
-}
+} */
 
-.tutorialContainer_b06ae6
+/* .tutorialContainer_b06ae6
   .listItem-GuPuDH
   .listItemWrapper-KhRmzM
   .wrapper__8436d
   .childWrapper_a6ce15 {
   background-color: transparent;
-}
+} */
 
 .homeIcon-tEMBK1 {
   visibility: hidden;
 }
 
-.tutorialContainer_b06ae6
+/* .tutorialContainer_b06ae6
   .listItem__48528
   .listItemWrapper__3d465
   .wrapper__8436d
   svg {
   opacity: 0;
-}
+} */
 
 .tutorialContainer_b06ae6 {
   display: flex;
@@ -1006,10 +1011,10 @@ html {
   left: 0px;
 }
 
-.folder__17546,
+/* .folder__17546,
 .folderIconWrapper__11165 {
-  border-radius: 50%;
-}
+  border-radius: 50% !important;
+} */
 
 .container_f79ab4 {
   background: transparent;
@@ -1233,15 +1238,20 @@ html {
   color: var(--unread-text-channel-color);
 }
 
+.childWrapper_a6ce15 {
+  background-color: var(--main-theme-color) !important;
+}
+
 :root {
-  --main-theme-color: rgb(181, 67, 67);
+  /* #3199ff */
+  --main-theme-color: #3867ff;
   --theme-transparency: rgba(0, 0, 0, 0.8);
   --server-listing-width: calc(64px * 2);
   --font-size: 100%;
   --mention-color: rgba(250, 166, 26, 0.05);
   --mention-sider: rgba(250, 166, 26, 1);
   --mention-hover-color: rgba(250, 166, 26, 0.08);
-  --category-hover-color: rgb(202, 60, 60);
+  --category-hover-color: var(--main-theme-color);
   --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
   --video-screen-button-foreground-color: white;
   --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
@@ -1265,7 +1275,7 @@ html {
   --channel-limit-background-left: rgba(200, 200, 200, 0.1);
   --channel-limit-background-right: rgba(200, 200, 200, 0.2);
   --scrollbar-color: rgba(200, 200, 200, 0.2);
-  --unread-message-divider-color: #f04747;
+  --unread-message-divider-color: var(--main-theme-color);
   --unread-message-divider-font-color: #fff;
   --new-messages-bar-background-color: #7289da;
   --new-messages-bar-font-color: #fff;
@@ -1288,9 +1298,5 @@ html {
   --reaction-emoji-border-color: 1px solid transparent;
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
-  --theme-background-image: url(https://vsthemes.org/uploads/posts/2021-03/1616187681_naruto-akatsuki-itachi-uchiha.webp);
-  --home-icon-image: url(https://xasya.github.io/theme/upd/chika-vs-bedrock/Fr_Ico.jpg);
-  --home-icon-image-position: right center;
-  --home-icon-image-zoom: 170%;
-  --unread-server-animation: ease-in-out;
+  --theme-background-image: url(https://github.com/vycdev/NotAnotherAnimeTheme/blob/master/image/background.jpg?raw=true);
 }
