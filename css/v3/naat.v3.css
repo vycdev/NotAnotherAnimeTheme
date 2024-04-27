@@ -1270,7 +1270,7 @@ html {
   --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
   --context-menu-transparency: rgba(15, 15, 15, 0.8);
   --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
-  --add-discover-icon-color: #b54343;
+  --add-discover-icon-color: var(--main-theme-color);
   --channel-limit-count-color: var(--channels-default);
   --channel-limit-background-left: rgba(200, 200, 200, 0.1);
   --channel-limit-background-right: rgba(200, 200, 200, 0.2);
